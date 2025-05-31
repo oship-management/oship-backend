@@ -32,7 +32,7 @@ class OshipServerApplicationTests {
 	@Test
 	void contextLoads() throws InterruptedException {
 		int i = 0;
-		while (true){
+		while (i < 10){
 
 			Thread.sleep(1000);
 			System.out.println("test : " + i++);
